@@ -1,0 +1,24 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Busta | Ultimate link shortener</title>
+    <link rel="stylesheet" href="./styles/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1 id="title">Link shortener</h1>
+        <div class="formcontainer">
+            <div class="formcontent">
+                    <p id="err"><%=err%></p>
+                    <form action="/link" method="post" >
+                        <input type="url" name="link" id="linkarea" placeholder="Input your link"><br>
+                        <button type="submit" id="shortbtn">Shorten link</button>
+                    </form>
+            </div>
+        </div>
+        <h4 id="title">Made By Grandbusta</h4>
+    </div>
+</body>
+</html>

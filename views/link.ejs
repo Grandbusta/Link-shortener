@@ -1,0 +1,26 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Busta | Ultimate link shortener</title>
+    <link rel="stylesheet" href="./styles/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1 id="title">Link shortener</h1>
+        <div class="formcontainer">
+            <div class="formcontent">
+                        <input type="text" id="linkarea" readonly value="<%=short%>"><br>
+                        <div class="tooltip" id="tool"><p>Copied!</p></div>
+                        <button type="submit" id="shortbtn">Copy Url</button>
+                        <div class="details">
+                                <p>Original Link: <a class="linkDisplay" href="<%=origlink%>"><%=originallink%></a></p>
+                        </div>
+            </div>
+        </div>
+        <h4 id="title">Made By Grandbusta</h4>
+    </div>
+    <script src="./js/ok.js"></script>
+</body>
+</html>
